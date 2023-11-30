@@ -83,9 +83,9 @@ background-color:#8fac55 ;
 text-decoration: line-through ;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) and (orientation: portrait){
     .container{
-        width: 80%;
+        width: 95%;
     }
 
     .input-task{
